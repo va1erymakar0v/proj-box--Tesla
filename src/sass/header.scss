@@ -1,0 +1,12 @@
+.header {
+	position: relative;
+
+	height: 165px;
+
+	color: #fff;
+	background-color: #000;
+
+	@media (max-width: 895px) {
+		height: 120px;
+	}
+}

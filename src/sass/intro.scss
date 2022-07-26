@@ -1,0 +1,88 @@
+.intro {
+	height: 1024px;
+
+	padding-top: 100px;
+
+	background-size: contain;
+	background-color: #000;
+	background-position: center 60%;
+	background-repeat: no-repeat;
+	background-image: url('../../dist/images/intro-background.png');
+
+	@media (max-width: 1300px) {
+		height: 900px;
+	}
+
+	@media (max-width: 895px) {
+		height: 790px;
+	}
+
+	@media (max-width: 760px) {
+		height: 650px;
+		padding-top: 20px;
+	}
+}
+
+.intro__title {
+	display: block;
+	font-family: "Fahkwang", sans-serif;
+	font-size: 86px;
+	line-height: 93px;
+	letter-spacing: 0.555em;
+	background: radial-gradient(117.12% 117.12% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%);
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+	text-align: center;
+
+	margin-left: 30px;
+
+	@media (max-width: 1300px) {
+		font-size: 59px;
+		line-height: 63px;
+	}
+
+	@media (max-width: 895px) {
+		font-size: 49px;
+		line-height: 71px;
+	}
+
+	@media (max-width: 480px) {
+		font-size: 28px;
+		line-height: 71px;
+	}
+}
+
+.intro__subtitle {
+	display: block;
+	font-family: "Fahkwang", sans-serif;
+	font-size: 43px;
+	line-height: 56px;
+	letter-spacing: 0.855em;
+	background: radial-gradient(117.12% 117.12% at 50% 50%, #FFFFFF 0%, rgba(255, 255, 255, 0) 50%);
+	background-clip: text;
+	text-fill-color: transparent;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+	text-align: center;
+
+	margin-top: 40px;
+	margin-left: 30px;
+
+	@media (max-width: 1300px) {
+		font-size: 31px;
+		line-height: 41px;
+	}
+
+	@media (max-width: 760px) {
+		margin-top: 0;
+	}
+
+	@media (max-width: 480px) {
+		font-size: 23px;
+		line-height: 71px;
+	}
+}

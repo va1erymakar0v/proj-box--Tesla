@@ -1,0 +1,26 @@
+.footer {
+	padding: 180px 0 40px;
+}
+
+.footer__list {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	flex-wrap: wrap;
+}
+
+.footer__link {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 16px;
+	color: #000;
+	text-decoration: none;
+
+	margin: 0 10px;
+}

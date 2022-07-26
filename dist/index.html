@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="../dist/css/style.min.css">
+		<meta name="description" content="Tesla showroom">
+		<meta name="creator" content="Valeriy Makarov">
+		<link rel="icon" href="images/icon.png">
+		<title>Tesla Store</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="decorative-overlay"></div>
+			<header class="header">
+				<div class="container header__inner">
+					<div class="menu">
+						<button class="menu__button">
+							<span class="menu__burger">
+								<span class="visually-hidden">Open models line</span>
+							</span>
+							<img src="images/menu/logo.png" alt="tesla logo" width="43" height="43" class="menu__logo">
+						</button>
+						<ul class="menu__list">
+							<li class="menu__item menu__item--selling">
+								<a class="menu__link" href="#model-3">
+									<img class="menu__image" src="images/menu/model-3.png" width="195" height="130" alt="model-3">
+								</a>
+							</li>
+							<li class="menu__item menu__item--sold">
+								<a class="menu__link" href="#">
+									<img class="menu__image" src="images/menu/model-s.png" width="195" height="130" alt="model-s">
+								</a>
+							</li>
+							<li class="menu__item menu__item--sold">
+								<a class="menu__link" href="#">
+									<img class="menu__image" src="images/menu/model-y.png" width="195" height="130" alt="model-y">
+								</a>
+							</li>
+							<li class="menu__item menu__item--sold">
+								<a class="menu__link" href="#">
+									<img class="menu__image" src="images/menu/model-x.png" width="195" height="130" alt="model-x">
+								</a>
+							</li>
+							<li class="menu__item menu__item--sold">
+								<a class="menu__link" href="#">
+									<img class="menu__image" src="images/menu/cybertruck.png" width="195" height="130" alt="cybertruck">
+								</a>
+							</li>
+						</ul>
+					</div>
+					<nav class="navigation">
+						<ul class="navigation__list">
+							<li class="navigation__item">
+								<a class="navigation__link" href="#model-3">Customizer</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<main class="main">
+				<h1 class="visually-hidden">Tesla store</h1>
+				<section class="intro">
+					<div class="container">
+						<h2 class="visually-hidden">Presentation</h2>
+						<span class="intro__title">Next era of</span>
+						<span class="intro__subtitle">Mobility</span>
+					</div>
+				</section>	
+
+				<section class="customize">
+					<div class="container customize__inner">
+						<h2 class="visually-hidden">Customizer</h2>
+						<ul class="customize__list">
+							<li class="customize__item customize__item--active">
+								<img class="customize__image" src="../dist/images/model-3/black.png" alt="black model-3" width="728" height="408">
+							</li>
+							<li class="customize__item">
+								<img class="customize__image" src="./images/model-3/blue.png" alt="blue model-3" width="728" height="408">
+							</li>
+							<li class="customize__item">
+								<img class="customize__image" src="./images/model-3/grey.png" alt="grey model-3" width="728" height="408">
+							</li>
+							<li class="customize__item">
+								<img class="customize__image" src="./images/model-3/red.png" alt="red model-3" width="728" height="408">
+							</li>
+							<li class="customize__item">
+								<img class="customize__image" src="./images/model-3/white.png" alt="white model-3" width="728" height="408">
+							</li>
+						</ul>
+
+						<div class="customize__paint">
+							<button class="customize__prev">
+								<span class="visually-hidden">Previous color</span>
+							</button>
+							<button class="customize__color customize__color--black customize__color--active">
+								Black
+							</button>
+							<button class="customize__color customize__color--blue">
+								Blue
+							</button>
+							<button class="customize__color customize__color--gray">
+								Grey
+							</button>
+							<button class="customize__color customize__color--red">
+								Red
+							</button>
+							<button class="customize__color customize__color--white">
+								White
+							</button>
+							<button class="customize__next">
+								<span class="visually-hidden">Next color</span>
+							</button>
+						</div>
+
+						<form class="customize__info" id="model-3">
+							<span class="customize__heading">Model-3</span>
+							<span class="customize__delivery">Est. Delivery: Sep - Dec 2022</span>
+							<div class="customize__characteristics">
+								<span class="customize__characteristics-distance">334mi</span>
+								<span class="customize__characteristics-speed">145mph</span>
+								<span class="customize__characteristics-racing">4.2sec</span>
+							</div>
+							<fieldset class="customize__fieldset">
+								<legend class="visually-hidden">Choose price option</legend>
+								<span class="customize__subtitle">Rear-Wheel Drive</span>
+								<div class="customize__option customize__option--active">
+									<input class="visually-hidden" type="radio" name="price" id="classic">
+									<label for="classic" class="customize__box">
+										<span class="customize__model">Model-3 <span class="customize__model-type">Classic</span></span>
+										<span class="customize__price">$39.640</span>
+										<span class="customize__distance">334mi</span>
+										<span class="customize__speed">145mph</span>
+										<span class="customize__racing">4.2sec</span>
+									</label>
+								</div>
+								<span class="customize__subtitle">Deal Motor All-Wheel Drive</span>
+								<div class="customize__option">
+									<input class="visually-hidden" type="radio" name="price" id="long">
+									<label for="long" class="customize__box">
+										<span class="customize__model">Model-3 <span class="customize__model-type">Long Range</span></span>
+										<span class="customize__price">$50.640</span>
+										<span class="customize__distance">491mi</span>
+										<span class="customize__speed">151mph</span>
+										<span class="customize__racing">4.5sec</span>
+									</label>
+								</div>
+								<div class="customize__option">
+									<input class="visually-hidden" type="radio" name="price" id="performance">
+									<label for="performance" class="customize__box">
+										<span class="customize__model">Model-3 <span class="customize__model-type">Performance</span></span>
+										<span class="customize__price">$55.640</span>
+										<span class="customize__distance">302mi</span>
+										<span class="customize__speed">195mph</span>
+										<span class="customize__racing">2.2sec</span>
+									</label>
+								</div>
+							</fieldset>
+							<span class="customize__warning">Prices shown include the $750 Califonia Clean Fuel Reward and Potential Incetives and gas savings for a total of $7,350.</span>
+							<button class="customize__submit" type="button">
+								Purchase
+							</button>
+							<div class="customize__popup">
+								<button class="customize__popup-close" type="button">close (x)</button>
+								<span class="customize__popup-text">You want to purchase:</span>
+								<span class="customize__popup-model"></span>
+								<span class="customize__popup-text">In configuration of:</span>
+								<span class="customize__popup-option"></span>
+								<span class="customize__popup-text">For price:</span>
+								<span class="customize__popup-price"></span>
+								<label class="customize__popup-contacts" for="email">Leave your email address, our manager will clarify details.</label>
+								<input class="customize__popup-input" type="email" name="email" id="email" placeholder="Email">
+								<button class="customize__send" type="submit">
+									Send
+								</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</main>
+			<footer class="footer">
+				<div class="container">
+					<ul class="footer__list">
+						<li class="footer__item">
+							<a class="footer__link" href="#">Tesla © 2022</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Privacy & Lega</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Contact</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Careers</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">News</a>
+						</li>
+						<li class="footer__item">
+							<a class="footer__link" href="#">Locations</a>
+						</li>
+					</ul>
+				</div>
+			</footer>
+		</div> <!-- wrapper -->
+	<script src="../dist/js/script.min.js"></script>
+	</body>
